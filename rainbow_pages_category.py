@@ -19,7 +19,7 @@ def parse_listing(keyword, place):
 
     """
 
-    url = "https://rainbowpages.lk/search.php?action=search&searchId=&searchType=&s={0}&l={1}".format(keyword, place)
+    url = "https://rainbowpages.lk/{0}/{0}/?l={1}".format(keyword, place)
 
     print("retrieving ", url)
 
@@ -139,8 +139,8 @@ if __name__ == "__main__":
     scraped_data = parse_listing(keyword, place)
 
     if scraped_data:
-        print("Writing scraped data to %s-%s-rainbowpages-scraped-data.csv" % (keyword, place))
-        with open('%s-%s-rainbowpages-scraped-data.csv' % (keyword, place), 'wb') as csvfile:
+        print("Writing scraped data to %s-%s-rainbowpages-scraped-data-category.csv" % (keyword, place))
+        with open('%s-%s-rainbowpages-scraped-data-category.csv' % (keyword, place), 'wb') as csvfile:
             fieldnames = ['business_name', 'telephone', 'business_page', 'business_address']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
             writer.writeheader()
