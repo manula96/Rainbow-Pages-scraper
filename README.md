@@ -57,7 +57,7 @@ python rainbow_pages.py Restaurants Colombo
 This script scrapes according to the keyword provided as a parameter. Thus, it may include situations like below:
 Keyword: "PUB" and
 Location: "Colombo"
-Results may have "pubudu engineering Colombo".
+, results may include "*pub*udu engineering Colombo" too.
 
 ### Solution: Work with Categories available in Rainbowpages site
 Rainbow Pages has multiple categories and subcategoris (available here: https://rainbowpages.lk/).
