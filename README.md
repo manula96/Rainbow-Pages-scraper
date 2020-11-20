@@ -50,16 +50,16 @@ Open cmd and run:
 ```
 python rainbow_pages.py Restaurants Colombo
 ```
-Keyword: Restaurants 
-Location: Colombo
+- Keyword: Restaurants 
+- Location: Colombo
 
 
 This script scrapes according to the keyword provided as a parameter. Thus, it may include situations like below:
-Keyword: "PUB"
+Keyword: "PUB" and
 Location: "Colombo"
 Results may have "pubudu engineering Colombo".
 
-###Solution: Work with Categories available in Rainbowpages site
+### Solution: Work with Categories available in Rainbowpages site
 Rainbow Pages has multiple categories and subcategoris (available here: https://rainbowpages.lk/).
 
 If you know the exact category name you need to scrape, run the script in the following format:
@@ -67,8 +67,8 @@ If you know the exact category name you need to scrape, run the script in the fo
 ```
 python rainbow_pages_category.py Restaurants Colombo
 ```
-Categroy Name: "Restaurants"
-Location: "Colombo"
+- Categroy Name: "Restaurants"
+- Location: "Colombo"
 
 
 ## Output
