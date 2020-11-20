@@ -54,18 +54,21 @@ Keyword: Restaurants
 Location: Colombo
 
 
-## Work with Categories available in Rainbowpages site
-Rainbow Pages has multiple categories and subcategoris (https://rainbowpages.lk/). This project scrapes according to the keyword provided as a parameter. Thus, it may include situations like below:
-Keyword: PUB Location: Colombo
-Results may have "pubudu engineering".
+This script scrapes according to the keyword provided as a parameter. Thus, it may include situations like below:
+Keyword: "PUB"
+Location: "Colombo"
+Results may have "pubudu engineering Colombo".
 
-If you know the exact category name you need to scrape, run the following command
+###Solution: Work with Categories available in Rainbowpages site
+Rainbow Pages has multiple categories and subcategoris (available here: https://rainbowpages.lk/).
+
+If you know the exact category name you need to scrape, run the script in the following format:
 
 ```
 python rainbow_pages_category.py Restaurants Colombo
 ```
-Categroy Name: Restaurants 
-Location: Colombo
+Categroy Name: "Restaurants"
+Location: "Colombo"
 
 
 ## Output
