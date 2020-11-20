@@ -50,9 +50,27 @@ Open cmd and run:
 ```
 python rainbow_pages.py Restaurants Colombo
 ```
+Keyword: Restaurants 
+Location: Colombo
+
+
+## Work with Categories available in Rainbowpages site
+Rainbow Pages has multiple categories and subcategoris (https://rainbowpages.lk/). This project scrapes according to the keyword provided as a parameter. Thus, it may include situations like below:
+Keyword: PUB Location: Colombo
+Results may have "pubudu engineering".
+
+If you know the exact category name you need to scrape, run the following command
+
+```
+python rainbow_pages_category.py Restaurants Colombo
+```
+Categroy Name: Restaurants 
+Location: Colombo
+
+
 ## Output
 
-This will create a csv file with the 1. Business Name 2. Phone Number 3. Business Page and 4. Address
+The scripts will create a csv file with the 1. Business Name 2. Phone Number 3. Business Page and 4. Address
 
 
  
